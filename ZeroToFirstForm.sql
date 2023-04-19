@@ -24,9 +24,7 @@ insert into persons (roll_no, name, subject)
 
 /*
 Table in 1st normal form:
-*/ 
 
-/*
 roll_no	name	subject
 101	Akon	OS
 101	Akon	CN
