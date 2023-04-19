@@ -1,4 +1,4 @@
-# DoNormalFormMySQL :pencil2:
+# doNormalFormMySQL :pencil2:
 
 ## What is DoNormalFormMySQL
 
