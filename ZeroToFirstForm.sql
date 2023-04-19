@@ -1,3 +1,12 @@
+/*
+Table in '0' form:
+
+roll_no	name	subject
+101	Akon	OS, CN
+103	Ckon	Java
+102	Bkon	C, C++
+*/
+
 /* create a '0' form database */
 
 create table persons (
@@ -12,6 +21,19 @@ insert into persons (roll_no, name, subject)
 	(103, "Ckon", "Java"),
 	(102, "Bkon", "C, C++");
 );
+
+/*
+Table in 1st normal form:
+*/ 
+
+/*
+roll_no	name	subject
+101	Akon	OS
+101	Akon	CN
+103	Ckon	Java
+102	Bkon	C
+102	Bkon	C++
+*/
 
 /* normalize the '0' form into 1st normal form */
 
